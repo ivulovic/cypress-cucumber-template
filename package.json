@@ -1,0 +1,33 @@
+{
+  "name": "reactor-tester",
+  "version": "1.0.0",
+  "private": true,
+  "author": "baha",
+  "description": "Frontend e2e testing made in Cypress",
+  "scripts-info": {
+    "dev": "Open cypress as browser and preview tests",
+    "test": "Run cypress in headless mode and record issues and take screenshots",
+    "cypress": "Shortcut to access cypress commands"
+  },
+  "scripts": {
+    "dev": "cypress open --config-file cypress/configuration/main.json",
+    "test": "cypress run --config-file cypress/configuration/main.json",
+    "cypress": "cypress"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "cypress": "9.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/integration/cucumber/features"
+  },  
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  }
+}

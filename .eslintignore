@@ -1,0 +1,15 @@
+# Don't check auto-generated stuff into git
+node_modules/
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+.eslintrc.js
+
+# Specific for `project`
+.vscode
+.github
+.gitlab
+cypress-examples/
+cypress-output/

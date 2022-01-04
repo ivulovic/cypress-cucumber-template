@@ -1,0 +1,7 @@
+node_modules/
+debug.log
+
+# just so we know we don't wanna store those on git
+# but we wanna know they can exists
+cypress-output/videos/
+cypress-output/screenshots/

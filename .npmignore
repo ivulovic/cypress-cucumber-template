@@ -1,0 +1,6 @@
+# change to whitelist mode
+# NOTE: this is just for security
+# if somebody for some reason tries or do `npm publish`
+# so our project don't leak all source code to public
+
+*

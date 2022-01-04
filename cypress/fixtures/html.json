@@ -1,0 +1,6 @@
+{
+	"usernameInput":"[name=\"email\"]",
+	"passwordInput":"[name=\"password\"]",
+	"loginButton":"button.button.primary",
+	"navLinks": ".header-wrapper .nav-wrapper:not(.mobile) a.nav-item"
+}

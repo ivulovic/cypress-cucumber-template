@@ -1,0 +1,16 @@
+{
+  "baseUrl": "https://retrosfera.com",
+  "defaultCommandTimeout": 15000,
+  "viewportWidth": 1366,
+  "viewportHeight": 768,
+
+  "videosFolder": "cypress-output/videos",
+  "downloadsFolder": "cypress-output/downloads",
+  "screenshotsFolder": "cypress-output/screenshots",
+
+  "fixturesFolder":"cypress/fixtures",
+  "pluginsFile": "cypress/plugins/index.js",
+  
+  "testFiles": ["**/*.spec.js","**/*.feature"],
+  "hideXHR": 1
+}
